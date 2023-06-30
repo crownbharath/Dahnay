@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!-- index.html -->
+<head>
+  <link rel="stylesheet" type="text/css" href='STYLE.CSS'>
+  <style>
+    .ip {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      outline: none;
+      height: 40px; /* Adjust the height as needed */
+      width: 300px; /* Adjust the width as needed */
+    }
+    
+    .btn {
+      padding: 10px;
+      background-color: #e2342b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="center-div">
+    <h1 style="color: beige;">Welcome to the Web Portal</h1><br><br>
+    <form action="/submit" method="POST">
+        <label for="input_data">Container Number:</label>
+        <input type="text" class="ip" placeholder="SEARCH NUMBER" name="input_data" id="input_data"> <br>
+        <button type="submit" class="btn">Track Container</button>
+    </form>
+  </div>
+</body>
+</html>

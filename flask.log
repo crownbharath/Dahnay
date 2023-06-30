@@ -1,0 +1,85 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+DEBUG:__main__:Home page requested
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:02:15] "GET / HTTP/1.1" 200 -
+DEBUG:__main__:Form submission requested
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): connect.cargoes.com:443
+DEBUG:urllib3.connectionpool:https://connect.cargoes.com:443 "POST /flow/api/public_tracking/v1/generateSharingUrl HTTP/1.1" 401 0
+ERROR:__main__:API request failed: 
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:02:22] "POST /submit HTTP/1.1" 200 -
+DEBUG:__main__:Form submission requested
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): connect.cargoes.com:443
+DEBUG:urllib3.connectionpool:https://connect.cargoes.com:443 "POST /flow/api/public_tracking/v1/generateSharingUrl HTTP/1.1" 401 0
+ERROR:__main__:API request failed: 
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:03:24] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\DAHNAY-HQ-PALANISELV\\Documents\\Python Projects\\Containertracking\\callingrestapi.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:30:25] "[31m[1mPOST /submit HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:30:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:30:30] "[31m[1mPOST /submit HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:30:57] "[31m[1mPOST /submit HTTP/1.1[0m" 415 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:32:44] "[31m[1mPOST /submit HTTP/1.1[0m" 415 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug: * Detected change in 'c:\\Users\\DAHNAY-HQ-PALANISELV\\Documents\\Python Projects\\Containertracking\\callingrestapi.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:39:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 12:39:41] "[31m[1mPOST /submit HTTP/1.1[0m" 415 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\DAHNAY-HQ-PALANISELV\\Documents\\Python Projects\\Containertracking\\callingrestapi.py', reloading
+INFO:werkzeug: * Restarting with stat
+2023-06-28 12:47:50,713 ERROR: API request failed: {"message":"Given tracking type not supported"}
+2023-06-28 12:52:53,447 ERROR: API request failed: {"message":"Given tracking type not supported"}
+2023-06-28 12:53:07,653 ERROR: API request failed: {"message":"Given tracking type not supported"}
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 137-661-880
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 13:02:26] "GET / HTTP/1.1" 200 -
+DEBUG:callingrestapi:Request URL: https://connect.cargoes.com/flow/api/public_tracking/v1/generateSharingUrl
+DEBUG:callingrestapi:Request Headers: {'X-DPW-ApiKey': 'dL6SngaHRXZfvzGA716lioRD7ZsRC9hs', 'X-DPW-Org-Token': 'Y9ddEGne0FwnLUO6GKVdwdyCAXbP9URO'}
+DEBUG:callingrestapi:Request Payload: {'data': {'containerNumber': 'HASU1085502'}}
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): connect.cargoes.com:443
+DEBUG:urllib3.connectionpool:https://connect.cargoes.com:443 "POST /flow/api/public_tracking/v1/generateSharingUrl HTTP/1.1" 400 47
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2023 13:02:37] "POST /submit HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\DAHNAY-HQ-PALANISELV\\Documents\\Python Projects\\Containertracking\\callingrestapi.py', reloading
+INFO:werkzeug: * Restarting with stat
